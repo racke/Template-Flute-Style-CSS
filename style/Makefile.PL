@@ -18,8 +18,8 @@ WriteMakefile(
     },
     META_MERGE        => {
         resources => {
-            repository  => 'https://github.com/racke/Template-Flute.git',
-            bugtracker  => 'https://github.com/racke/Template-Flute/issues',
+            repository  => 'https://github.com/racke/Template-Flute-Style-CSS',
+            bugtracker  => 'https://github.com/racke/Template-Flute-Style-CSS/issues',
         },
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
