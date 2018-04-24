@@ -16,6 +16,7 @@ WriteMakefile(
         'CSS::Tiny' => 0,
         'Template::Flute' => 0.0081,
     },
+    MIN_PERL_VERSION => '5.008001',
     META_MERGE        => {
         resources => {
             repository  => 'https://github.com/racke/Template-Flute.git',
